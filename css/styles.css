@@ -1,2 +1,48 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;*/
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background: #a5c4d4;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.btn-main {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #9e768f;
+  padding: 15px 30px;
+  line-height: 27px;
+}
+
+.btn-main:hover {
+  border: 1px solid #9e768f;
+  background: #848c8e;
+  color: white;
+}
