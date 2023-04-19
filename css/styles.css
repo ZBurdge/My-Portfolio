@@ -1,6 +1,7 @@
 :root {
   --primary-color: #a5c4d4;
   --seconday-color: rgba(158, 118, 143, 0.5);
+  --accent-color: #848c8e;
 }
 
 body {
@@ -69,6 +70,20 @@ p {
 
 .btn-main:hover {
   border: 1px solid #9e768f;
-  background: #848c8e;
+  background: var(--accent-color);
   color: white;
+}
+
+.contact-links a {
+  font-size: 24px;
+  padding: 10px 15px;
+  margin: 0 40px;
+}
+
+.footer-source {
+  padding-top: 10px;
+}
+
+.footer-source a {
+  color: #9e768f;
 }
