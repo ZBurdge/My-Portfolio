@@ -3,6 +3,10 @@
   --seconday-color: rgba(158, 118, 143, 0.5);
 }
 
+body {
+  background: var(--primary-color);
+}
+
 .main-navbar {
   background-color: var(--seconday-color);
 }
@@ -23,26 +27,30 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.hero {
-  text-align: center;
-  background: var(--primary-color);
-  padding: 160px 20px;
+.container {
+  margin-top: 80px;
+  max-width: 1200px;
 }
 
-.hero h2 {
+.container h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
 
-.hero h1 {
+.container h1 {
   font-weight: bold;
   font-size: 96px;
-  line-height: 1.5;
 }
 
-.hero p {
+.container p {
   font-size: 24px;
+}
+
+.contact-box {
+  background-color: var(--seconday-color);
+
+  bottom: 0;
 }
 
 .btn-main {
