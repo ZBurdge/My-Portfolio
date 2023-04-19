@@ -49,8 +49,13 @@ p {
 
 .contact-box {
   background-color: var(--seconday-color);
+  padding: 30px 120px;
+  margin: 0 200px;
+  border-radius: 5px;
+}
 
-  bottom: 0;
+.contact-box p {
+  margin: 0;
 }
 
 .btn-main {
