@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #a5c4d4;
+  --seconday-color: rgba(158, 118, 143, 0.5);
+}
+
+.main-navbar {
+  background-color: var(--seconday-color);
+}
+.navbar-brand {
+  border: 1px solid black;
+  padding: 10px;
+}
+
 h2 {
   font-family: "Raleway", sans-serif;
 }
@@ -12,7 +25,7 @@ p {
 
 .hero {
   text-align: center;
-  background: #a5c4d4;
+  background: var(--primary-color);
   padding: 160px 20px;
 }
 
