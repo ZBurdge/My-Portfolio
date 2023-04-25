@@ -91,3 +91,28 @@ p {
     padding: 30px 30px;
   }
 }
+
+.about-me {
+  max-width: 1200px;
+  margin: 80px auto;
+  text-align: center;
+}
+.about-me h2,
+h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 24px;
+}
+
+.about-me .container {
+  margin-top: 40px;
+}
+
+.attributes-list {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
