@@ -98,12 +98,12 @@ p {
   }
 }
 
-.about-me {
+.content-container {
   max-width: 1200px;
   margin: 80px auto;
   text-align: center;
 }
-.about-me h2,
+.content-container h2,
 h3 {
   font-weight: bold;
   text-decoration: underline;
@@ -113,10 +113,12 @@ h3 {
   margin: 24px;
 }
 
-.about-me .container {
+.content-container .content {
   margin-top: 40px;
 }
-
+.content p {
+  font-size: 24px;
+}
 .attributes-list {
   font-family: "Playfair Display", serif;
   font-size: 18px;
