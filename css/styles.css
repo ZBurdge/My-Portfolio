@@ -124,3 +124,15 @@ h3 {
   font-size: 18px;
   font-weight: bold;
 }
+
+.work-img {
+  max-height: 500px;
+  border-radius: 8px;
+}
+
+.work-link {
+  color: black;
+}
+.work-link:hover {
+  color: var(--accent-color);
+}
