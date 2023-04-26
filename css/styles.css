@@ -89,6 +89,8 @@ p {
 }
 
 .footer-source a {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
   color: #9e768f;
 }
 
@@ -135,4 +137,11 @@ h3 {
 }
 .work-link:hover {
   color: var(--accent-color);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #9e768f;
 }
